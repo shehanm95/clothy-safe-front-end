@@ -22,6 +22,9 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  goToAddProduct() {
+    this.router.navigate(['/add-product'])
+  }
   editUser(userId: number): void {
     this.router.navigate(['/edit-user', userId]); // Navigate to the EditUserComponent with userId as a parameter
   }
