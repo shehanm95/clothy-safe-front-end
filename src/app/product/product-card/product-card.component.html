@@ -1,0 +1,23 @@
+<div class="myCard">
+    <div class="card">
+        <img [src]="'http://localhost:8080/api/products/images/' + product.productImageLink" class="card-img-top"
+            alt="Product Image">
+        <div class="card-body">
+            <h5 class="card-title">{{ product.productName }}</h5>
+            <p class="card-text"><strong>Product ID:</strong> {{ product.id }}</p>
+            <p class="card-text"><strong>Category:</strong> {{ product.category }}</p>
+            <p class="card-text"><strong>Price:</strong> ${{ product.price }}</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .myCard {
+        width: 300px;
+        display: inline-block;
+        margin: 5px;
+
+    }
+</style>

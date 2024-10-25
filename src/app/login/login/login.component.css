@@ -1,0 +1,24 @@
+.outline-button {
+    border: 2px solid #007bff;
+    /* Change color to match Bootstrap's primary */
+    border-radius: 0.25rem;
+    /* Match Bootstrap button radius */
+    background-color: transparent;
+    /* Transparent background */
+    color: #007bff;
+    /* Text color matching Bootstrap's primary */
+}
+
+.outline-button.active {
+    background-color: #007bff;
+    /* Background color for active state */
+    color: white;
+    /* Text color for active state */
+    border-color: #007bff;
+    /* Active border color */
+}
+
+.outline-button:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+    /* Light hover effect */
+}
